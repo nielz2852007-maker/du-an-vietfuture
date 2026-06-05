@@ -2,60 +2,53 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>VIET FUTURE - GIẢI THƯỞNG SÁNG TẠO TƯƠNG LAI 2026</title>
+    <title>VIET FUTURE</title>
     <style>
-        body { font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; color: #333; scroll-behavior: smooth; }
-        .header { display: flex; justify-content: space-between; align-items: center; padding: 20px 5%; border-bottom: 1px solid #eee; background: #fff; position: sticky; top: 0; }
-        .nav { display: flex; gap: 20px; font-weight: bold; }
-        .nav a { text-decoration: none; color: #333; }
-        .hero { text-align: center; padding: 60px 20px; }
-        .hero img { width: 100%; max-width: 900px; margin: 20px 0; border-radius: 8px; }
-        .content { max-width: 900px; margin: 0 auto; padding: 20px; }
-        .gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
-        .gallery img { width: 100%; border-radius: 8px; }
-        .footer { text-align: center; padding: 40px; background: #f4f4f4; margin-top: 50px; }
+        body { font-family: sans-serif; margin: 0; line-height: 1.6; }
+        header { padding: 20px; background: #fff; border-bottom: 1px solid #ccc; display: flex; justify-content: space-between; align-items: center; }
+        nav a { margin: 0 10px; text-decoration: none; color: #333; font-weight: bold; }
+        .container { max-width: 900px; margin: auto; padding: 20px; text-align: center; }
+        img { max-width: 100%; border-radius: 8px; margin: 15px 0; }
+        .gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
     </style>
 </head>
 <body>
 
-    <header class="header">
-        <div><strong>VIET FUTURE</strong></div>
-        <nav class="nav">
-            <a href="#gioi-thieu">GIỚI THIỆU</a>
-            <a href="#hoi-dong">HỘI ĐỒNG</a>
-            <a href="#giai-thuong">GIẢI THƯỞNG</a>
-            <a href="#tham-gia">THAM GIA</a>
-            <a href="#lien-he">LIÊN HỆ</a>
-        </nav>
-    </header>
+<header>
+    <strong>VIET FUTURE</strong>
+    <nav>
+        <a href="#hero">GIỚI THIỆU</a>
+        <!-- Đã sửa href từ #hoi-dong thành trang web VietFuture -->
+        <a href="https://vietfuture.org/" target="_blank">HỘI ĐỒNG</a>
+        <a href="#giai-thuong">GIẢI THƯỞNG</a>
+        <a href="#tham-gia">THAM GIA</a>
+        <a href="#lien-he">LIÊN HỆ</a>
+    </nav>
+</header>
 
-    <main class="hero" id="gioi-thieu">
-        <h1>GIẢI THƯỞNG SÁNG TẠO TƯƠNG LAI 2026</h1>
-        <p>Kết nối các dự án khởi nghiệp và công nghệ từ sinh viên toàn quốc.</p>
-        <img src="11/banner.jpg" alt="Banner chính">
-    </main>
+<div class="container" id="hero">
+    <h1>GIẢI THƯỞNG SÁNG TẠO TƯƠNG LAI 2026</h1>
+    <img src="11/banner.jpg" alt="Banner">
+</div>
 
-    <div class="content">
-        <h2 id="hoi-dong">Hội đồng chuyên gia</h2>
-        <p>Thông tin về hội đồng...</p>
+<div class="container" id="giai-thuong">
+    <h2>Lịch trình triển khai</h2>
+    <img src="11/lich-trinh.jpg" alt="Lịch trình">
+</div>
 
-        <h2 id="giai-thuong">Lịch trình triển khai</h2>
-        <img src="11/lich-trinh.jpg" alt="Lịch trình">
-        
-        <h2 id="tham-gia">Hình ảnh hoạt động</h2>
-        <div class="gallery">
-            <img src="11/le-trao-giai.jpg" alt="Lễ trao giải">
-            <img src="11/thuyet-trinh.jpg" alt="Vòng thuyết trình">
-        </div>
+<div class="container" id="tham-gia">
+    <h2>Hình ảnh hoạt động</h2>
+    <div class="gallery">
+        <img src="11/le-trao-giai.jpg" alt="Lễ trao giải">
+        <img src="11/thuyet-trinh.jpg" alt="Thuyết trình">
     </div>
+</div>
 
-    <footer class="footer" id="lien-he">
-        <h3>Liên hệ</h3>
-        <div class="socials">
-            <img src="11/fb-icon.png" alt="Facebook" style="width: 40px; margin: 0 10px;">
-            <img src="11/zalo-icon.png" alt="Zalo" style="width: 40px; margin: 0 10px;">
-        </div>
-    </footer>
+<footer class="container" id="lien-he">
+    <h3>Liên hệ</h3>
+    <img src="11/fb-icon.png" alt="FB" style="width: 40px;">
+    <img src="11/zalo-icon.png" alt="Zalo" style="width: 40px;">
+</footer>
 
 </body>
 </html>
