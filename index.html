@@ -1,3 +1,39 @@
-<a href="https://vietfuture.world/hoi-dong" target="_blank">
-    <button>Xem Hội đồng VietFuture</button>
-</a>
+<style>
+    /* Làm menu nằm ngang và căn chỉnh cho đẹp */
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 50px;
+        background-color: #f8f9fa;
+        border-bottom: 2px solid #ddd;
+    }
+
+    .nav-menu {
+        display: flex;
+        list-style: none;
+        gap: 20px; /* Khoảng cách giữa các mục menu */
+    }
+
+    .nav-menu a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        font-family: Arial, sans-serif;
+    }
+
+    .nav-menu a:hover {
+        color: #007bff; /* Màu sắc khi di chuột qua */
+    }
+</style>
+<nav class="navbar">
+    <div class="logo">VIET FUTURE</div>
+    <ul class="nav-menu">
+        <li><a href="#">GIỚI THIỆU</a></li>
+        <!-- Link dẫn sang trang Hội đồng của VietFuture -->
+        <li><a href="https://vietfuture.world/hoi-dong" target="_blank">HỘI ĐỒNG</a></li>
+        <li><a href="#">GIẢI THƯỞNG</a></li>
+        <li><a href="#">THAM GIA</a></li>
+        <li><a href="#">LIÊN HỆ</a></li>
+    </ul>
+</nav>
